@@ -1,0 +1,68 @@
+html,body{
+	background:white;
+	min-height:100%;
+	min-width:100%;
+	margin:0;
+	padding:0;
+
+	font-family:Helvetica;
+}
+
+
+div#googleLogo{
+	position: relative;
+	top: 120px;
+	height:92px; width:272px;
+	background: url(https://www.google.co.il/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png);
+
+	text-align:right;
+	vertical-align:bottom;
+}
+
+div#googleLogo span{
+	position: absolute;
+	bottom:0;
+	right:0;																																																																																																																																																	px;
+	
+	color:rgb(66, 133, 244);	
+	vertical-align:bottom;
+
+}
+
+nav{
+	position:relative;
+	float:right;
+}
+nav ul{
+	position: relative;
+	list-style-type:none;
+	
+
+}
+nav ul li{
+	display:inline-block;
+	vertical-align: center;
+	margin:0 5px;
+
+	font-size:14px;
+	color:grey;
+
+}
+nav ul li div{
+	vertical-align:center;
+
+}
+
+nav ul li .googleToolsIcons{
+	border: none;
+}
+.greySq{
+	
+	height:4px;
+	width:4px;
+	padding:0;
+	background-color: grey;
+	border: none;
+	border-radius:1px;
+
+}
