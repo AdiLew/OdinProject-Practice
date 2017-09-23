@@ -1,33 +1,70 @@
 <!doctype html>
 <html>
 	<head>
+		<meta lang="en" charset="UTF-8">
 		<title>Google</title>
 		<link rel="stylesheet" href="main.css"/>
 	</head>
 	<body>
 		<nav>
 			<ul>
-				<li><div>Gmail</div></li>
-				<li><div>Images</div></li>
+				<li><div class="nav-item nav-textItem"><a href="#">Gmail</a></div></li>
+				<li><div class="nav-item nav-textItem"><a href="#">Images</a></div></li>
 				<li>
-					<table class="googleToolsIcons">
-						<tr>
-							<td class="greySq"></td><td class="greySq"></td><td class="greySq"></td>
-						</tr>
-						<tr>
-							<td class="greySq"></td><td class="greySq"></td><td class="greySq"></td>
-						</tr>
-						<tr>
-							<td class="greySq"></td><td class="greySq"></td><td class="greySq"></td>
-						</tr>
-					</table>
+					<div class="nav-item nav-avatar">
+						<a href="#">
+							<table class="googleToolsIcons">
+								<tr>
+									<td class="greySq"></td><td class="greySq"></td><td class="greySq"></td>
+								</tr>
+								<tr>
+									<td class="greySq"></td><td class="greySq"></td><td class="greySq"></td>
+								</tr>
+								<tr>
+									<td class="greySq"></td><td class="greySq"></td><td class="greySq"></td>
+								</tr>
+							</table>
+						</a>
+					</div>
 				</li>
+				<li><a href="#"><div class="nav-item nav-avatar nav-roundAvatar" id="nav-notifications"></div></a></li>
+				<li><a href="#"><div class="nav-item nav-avatar nav-roundAvatar" id="nav-user"><p>A</p></div></a></li>
 			</ul>
 		</nav>
-		<center>
+		
+		<div class="pageContent">
 			<div id="googleLogo">
 				<span>Israel</span>
 			</div>
-		</center>
+			<form>
+				<div class="search-searchblock">
+					<input class="searchbox" type="text" name="searchString"/>
+				</div>
+				<center>
+				<input class="searchButton" type="submit" value="Google Search"/>
+				<input class="searchButton" type="submit" value="I'm Feeling Lucky"/>
+				</center>
+			</form>
+			<div class="content-lang">
+			<p>Google.co.il offerred in: <span dir="rtl"><a href="#">עברית</a> <a href="#">العربية</a></span></p>
+			</div>
+		</div>
+		<footer>
+			<div class="footer-nav footer-navLeft">
+				<ul>
+					<li><a href="#"><div class="footer-navItem">Advertising</div></a></li>
+					<li><a href="#"><div class="footer-navItem">Business</div></a></li>
+					<li><a href="#"><div class="footer-navItem">About</div></a></li>
+				</ul>
+			</div>
+			<div class="footer-nav footer-navRight">
+				<ul>
+					<li><a href="#"><div class="footer-navItem">Privacy</div></a></li>
+					<li><a href="#"><div class="footer-navItem">Terms</div></a></li>
+					<li><a href="#"><div class="footer-navItem">Settings</div></a></li>
+					<li><a href="#"><div class="footer-navItem">Use Google.com</div></a></li>
+				</ul>
+			</div>
+		</footer>
 	</body>
 </html>
